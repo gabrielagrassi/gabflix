@@ -1,0 +1,60 @@
+    body { 
+        color :whitesmoke;
+        background: darkred;
+        margin: 0px
+        font-family "Zilla Slab", serif;
+        margin-bottom: 50px;
+        }
+
+     header {
+        border-bottom: solid 1px whitesmoke;
+        padding:20px;
+        font-size: 39px;
+        color: whitesmoke;
+     }
+
+     .chamada {
+        background: rgb(1, 1, 125);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .chamada-texto {
+        margin-right: 5%;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    p {
+        font-size: 40px;
+    }    
+
+    .categoria-vídeos {
+        display: flex;
+        overflow-x: auto;
+        gap: 10px;
+    }
+    
+    .categoria {
+        padding: 20px;
+        padding-right: 20px;
+        margin-top: 50px;
+    }
+
+    .categoria-vídeos img {
+        opacity: 0.5;
+        height: 200px
+    }
+
+    .categoria-vídeos img:hover { 
+        opacity: 2.0;
+        border: solid 1px darkblue;
+    }
+
+    .categoria h2 {
+        color:whitesmoke
+    }
